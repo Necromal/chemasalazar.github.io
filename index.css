@@ -1,0 +1,83 @@
+/*Top menu area*/
+
+.top-level-banner {
+    background-color: dodgerblue;
+
+}
+body .top-level-banner h3 {
+
+    color: aliceblue;
+    font-family: inherit;
+    font-size: 25px;
+    line-height: 60px;
+    margin-left: 30px;
+}
+
+.top-level-banner .top-menu ul {
+    position: absolute;
+    list-style: none;
+    text-align: center;
+    top: 5px;
+    left:40%;
+}
+
+.top-level-banner .top-menu ul li {
+    display: inline;
+    color: aliceblue;
+    padding-right: 10px;
+    padding-left: 20px;
+
+}
+
+.top-menu ul li a:visited {
+    color: aliceblue;
+
+}
+
+.top-menu ul li a:hover {
+    color: white;
+    text-decoration: none;
+
+
+}
+
+.top-menu .btn-primary {
+    background-color: dodgerblue !important;
+    border: none !important;
+}
+
+
+
+/*Hero featured area*/
+.jumbotron {
+    position: relative;
+    margin-top:-9px;
+    background-image: url("./hero.jpeg");
+    height: 500px;
+    color: aliceblue;
+}
+
+/*main body*/
+
+.main-body {
+    position: relative;
+    background-color: red;
+    top:-32px;
+    height: 1500px;
+}
+.main-content {
+    position: relative;
+    top: 0;
+    background-color: aliceblue;
+    height: 1500px;
+    padding: 1%;
+}
+
+.sidebar-right {
+    position: absolute;
+    top: 0;
+    left: 85%;
+    background-color: dimgrey;
+    height: 1500px;
+    width: 400px;
+}
