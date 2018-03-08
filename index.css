@@ -1,83 +1,45 @@
-/*Top menu area*/
-
-.top-level-banner {
-    background-color: dodgerblue;
-
-}
-body .top-level-banner h3 {
-
-    color: aliceblue;
-    font-family: inherit;
-    font-size: 25px;
-    line-height: 60px;
-    margin-left: 30px;
+.alert{
+  width: 80%;
+  margin: auto;
 }
 
-.top-level-banner .top-menu ul {
-    position: absolute;
-    list-style: none;
-    text-align: center;
-    top: 5px;
-    left:40%;
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
 }
 
-.top-level-banner .top-menu ul li {
-    display: inline;
-    color: aliceblue;
-    padding-right: 10px;
-    padding-left: 20px;
-
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
 }
 
-.top-menu ul li a:visited {
-    color: aliceblue;
-
-}
-
-.top-menu ul li a:hover {
-    color: white;
-    text-decoration: none;
-
-
-}
-
-.top-menu .btn-primary {
-    background-color: dodgerblue !important;
-    border: none !important;
-}
-
-
-
-/*Hero featured area*/
 .jumbotron {
-    position: relative;
-    margin-top:-9px;
-    background-image: url("./hero.jpeg");
-    height: 500px;
-    color: aliceblue;
+  height: 300px;
+  max-width: auto;
+  background-image: url("images/lucas-unsplash.jpg");
+  background-position: 0px 0px 0px 900px;
+}
+.rounded-circle{
+  margin-top: 0px;
 }
 
-/*main body*/
-
-.main-body {
-    position: relative;
-    background-color: red;
-    top:-32px;
-    height: 1500px;
-}
-.main-content {
-    position: relative;
-    top: 0;
-    background-color: aliceblue;
-    height: 1500px;
-    padding: 1%;
+.container p{
+  margin-top: 80px;
 }
 
-.sidebar-right {
-    position: absolute;
-    top: 0;
-    left: 85%;
-    background-color: dimgrey;
-    height: 1500px;
-    width: 400px;
+ul {
+  list-style-type: none;
+}
+
+.socialmedia-list-sm li a {
+  display: inline;
+  text-decoration: none;
+  text-align: center;
+}
+
+.socialmedia-list-sm img{
+  height: 30px;
+  max-width:auto;
 }
